@@ -1,11 +1,13 @@
 //Constants
 const LEFT = -2;
 const RIGHT = 2;
+
 const BALLOON_COUNT = 6;
 const BALLOON_HEALTH = 10;
+const BALLOON_SPEED = 2;
+
 const BULLET_SPEED = 3;
 const BULLET_MAX = 3;
-const BALLOON_SPEED = 2;
 
 //Modes
 const MAIN_MENU = 0;
