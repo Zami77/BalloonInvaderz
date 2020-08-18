@@ -1,6 +1,9 @@
 function setup() {
     mode = MAIN_MENU;
-    createCanvas(600,400);
+    var cnv = createCanvas(600, 400);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
     ship = new Ship();
     for (let i = 0; i < BALLOON_COUNT; i++) {
         balloons[i] = new Balloon(i*80+80, 60);    
